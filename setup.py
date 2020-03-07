@@ -1,8 +1,12 @@
 from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
 setup(
   name = 'ifra-sdk',
   packages = ['ifra-sdk'],  
-  version = '1.0.0',
+  version = '1.0.1',
   description = 'Client library of Python, connect to IFRA IIoT Platform.',
   author = 'IFRA IIoT',
   author_email = 'support@ifrasoft.com',
