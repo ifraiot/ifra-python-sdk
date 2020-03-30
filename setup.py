@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
   name = 'ifra_sdk',
   packages = ['ifra_sdk'],  
-  version = '1.0.2',
+  version = '1.0.3',
   description = 'Client library of Python, connect to IFRA IIoT Platform.',
   author = 'IFRA IIoT',
   author_email = 'support@ifrasoft.com',
