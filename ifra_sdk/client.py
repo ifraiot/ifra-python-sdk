@@ -6,7 +6,7 @@ import resource_monitoring as rm
 
 
 class IfraSDK():
-  def __init__(self, channel, device_id,device_secret ,server="hub.ifra.io"):
+  def __init__(self, channel, device_id,device_secret ,server="mqtt.ifra.io"):
     self.server = server
     self.channel = channel
     self.device_id = device_id
@@ -45,5 +45,3 @@ class IfraSDK():
      self.pack.clear()
   def toJson(self):
      return self.pack.to_json()
-
-
